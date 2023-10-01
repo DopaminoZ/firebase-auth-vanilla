@@ -1,13 +1,14 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
-	apiKey: "AIzaSyDd298p0YUtYm0u0G8A6o1462ouN2qheZw",
-	authDomain: "vue-firebase-project-d1b9a.firebaseapp.com",
-	databaseURL: "https://vue-firebase-project-d1b9a-default-rtdb.firebaseio.com",
-	projectId: "vue-firebase-project-d1b9a",
-	storageBucket: "vue-firebase-project-d1b9a.appspot.com",
-	messagingSenderId: "381747610583",
-	appId: "1:381747610583:web:9f33e5fb473c314ac9c192",
-};
+const firebaseConfig = {
+	apiKey: "AIzaSyAXNtGnuPpUCZHwiohemWCgenHsWhl8SUk",
+	authDomain: "testing-login-reg.firebaseapp.com",
+	projectId: "testing-login-reg",
+	storageBucket: "testing-login-reg.appspot.com",
+	messagingSenderId: "778778225121",
+	appId: "1:778778225121:web:60a908230c4f575c670aa0",
+	measurementId: "G-H8CCX3TC8X",
+	databaseURL: "https://testing-login-reg-default-rtdb.europe-west1.firebasedatabase.app"
+  };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 // Initialize variables
